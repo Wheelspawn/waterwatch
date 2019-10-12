@@ -3,7 +3,7 @@ Water visualization
 
 Project Workflow:
 
-To add a feature, create a feature branch and follow these steps
+To add a feature, follow these steps.
 
 1. Do a `git pull` to receive the latest changes from `master`.
 2. Create your branch with `git checkout -b feature_branch`. The name of the branch must be about the feature.
