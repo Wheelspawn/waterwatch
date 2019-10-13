@@ -2,9 +2,9 @@
 from sentinelsat import SentinelAPI, read_geojson, geojson_to_wkt
 import datetime
 from datetime import timedelta
-from multiprocessing.dummy import Pool as ThreadPool
-from multiprocessing import cpu_count
-
+# from multiprocessing.dummy import Pool as ThreadPool
+# from multiprocessing import cpu_count
+import logging
 #%%
 def getData(dtInput):
     #
@@ -18,7 +18,7 @@ def getData(dtInput):
     cloudMasked = products_df['cloudcoverpercentage']<20
     # download sorted and reduced products
     api.download_all(cloudMasked.index,directory_path='data')
-
+    return dtInput + ":" + 'success'
 
 #%%
 api = SentinelAPI('navidj', 'smaptest123', 'https://scihub.copernicus.eu/dhus')
@@ -32,6 +32,9 @@ start = datetime.datetime.strptime("01-01-2016", "%d-%m-%Y").date()
 end = datetime.datetime.strptime("10-01-2017", "%d-%m-%Y").date()
 date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days, 10)]
 date_list = [_dt.strftime('%Y%m%d') for _dt in date_generated]
-n_cpu = cpu_count()
-pool = ThreadPool(n_cpu - 1)
-results = pool.map(getData, date_list)
+
+# pool = ThreadPool(2)
+# results = pool.map(getData, date_list)
+
+for _dt in date_list:
+    getData(_dt)
