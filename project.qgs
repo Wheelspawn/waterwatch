@@ -1,0 +1,577 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.22">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="reproj120191012210541588" source="E:/Research/sentinel/data/reproj1.tif" name="reproj1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="T14TPQ_20160720T174112_B0320191012210339636" source="E:/Research/sentinel/data/S2A_MSIL1C_20160720T174112_N0204_R055_T14TPQ_20160720T174112/S2A_MSIL1C_20160720T174112_N0204_R055_T14TPQ_20160720T174112.SAFE/GRANULE/L1C_T14TPQ_A005629_20160720T174112/IMG_DATA/T14TPQ_20160720T174112_B03.jp2" name="T14TPQ_20160720T174112_B03">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="reprojected2016072020191012210303965" source="E:/Research/sentinel/data/reprojected20160720.tif" name="reprojected20160720">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="extentIowa20191012205805143" source="E:\Research\sentinel\extentIowa.geojson" name="extentIowa">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>degrees</units>
+    <extent>
+      <xmin>-97.70943136303202436</xmin>
+      <ymin>44.62507296513524579</ymin>
+      <xmax>-97.52345393458114131</xmax>
+      <ymax>44.75783451924377232</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>0</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="turkey_dem20170428124027087"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="dem_220170506222536075"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091e220170506213813086"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="srtm_18_0420170506225344458"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091g420170506213813394"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092g420170506213813873"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092b320170506213814722"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091d520170506213814516"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092h120170506213813911"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091h320170506213813522"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="srtm_18_0420170506222503358"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092c120170506213814779"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091h220170506213813504"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092c320170506213814817"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091d820170506213814571"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091e320170506213813103"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091f320170506213813232"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091f520170506213813268"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092h420170506213813966"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091f220170506213813216"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091a320170506213814041"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092f520170506213813798"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092e120170506213813631"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092a420170506213814647"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20170317141047253"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091b320170506213814192"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="out120170506221937558"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091e120170506213813070"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092f120170506213813724"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092e420170506213813688"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092g520170506213813892"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091d220170506213814459"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091d720170506213814553"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Turkey_hillslope20170428120725858"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091c820170506213814440"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091c220170506213814329"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091e720170506213813168"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Extent20191012184001351"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092g120170506213813816"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092a320170506213814628"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ifc_model20191012183629381"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092d520170506213814949"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091c520170506213814385"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091g720170506213813448"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="GlobalWatershed20170506213942458"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091h420170506213813540"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092a120170506213814590"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091e420170506213813120"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091g120170506213813339"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092h520170506213813985"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091f420170506213813251"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092d220170506213814891"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091a820170506213814134"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091f620170506213813286"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091c720170506213814421"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091b620170506213814253"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091a620170506213814096"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092e220170506213813650"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091h820170506213813613"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="dem_220170506231311463"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092b220170506213814704"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091c120170506213814311"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091f720170506213813304"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091c420170506213814366"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091h520170506213813558"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091g520170506213813413"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092d120170506213814873"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092f320170506213813761"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092f220170506213813743"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091d420170506213814497"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091a720170506213814114"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092d420170506213814930"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091e520170506213813136"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091e820170506213813184"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092b520170506213814760"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091h120170506213813486"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091b520170506213814232"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091a520170506213814077"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091g820170506213813467"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:32615" srcDatumTransform="-1" destDatumTransform="-1" layerid="T15TWE_20170114T165631_B0820191012201219136"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092g220170506213813835"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091a220170506213814022"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092g320170506213813854"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091g320170506213813376"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092c520170506213814854"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091g220170506213813357"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091b220170506213814173"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091d320170506213814478"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091c320170506213814348"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092h320170506213813947"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092d320170506213814910"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091b820170506213814292"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092h220170506213813929"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091a120170506213814003"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092b120170506213814685"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092a220170506213814609"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091d620170506213814534"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092b420170506213814741"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091b420170506213814211"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091f820170506213813322"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091h720170506213813595"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091a420170506213814059"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091b120170506213814153"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091f120170506213813200"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="turkey_boundary20170506214045927"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092e520170506213813706"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091e620170506213813152"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091h620170506213813576"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092c420170506213814836"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092e320170506213813668"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42091g620170506213813431"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="output20170506221015393"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m42092f420170506213813780"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092c220170506213814798"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43092a520170506213814666"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091b720170506213814273"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="memory_20170506214024250"/>
+      <layer_coordinate_transform destAuthId="EPSG:4326" srcAuthId="EPSG:26915" srcDatumTransform="-1" destDatumTransform="-1" layerid="ned03m43091c620170506213814403"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>extentIowa20191012205805143</item>
+      <item>reprojected2016072020191012210303965</item>
+      <item>T14TPQ_20160720T174112_B0320191012210339636</item>
+      <item>reproj120191012210541588</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="reproj1" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="reproj120191012210541588" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="T14TPQ_20160720T174112_B03" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="T14TPQ_20160720T174112_B0320191012210339636" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="reprojected20160720" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="reprojected2016072020191012210303965" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="extentIowa" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="extentIowa20191012205805143" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>600000</xmin>
+        <ymin>4890240</ymin>
+        <xmax>709800</xmax>
+        <ymax>5000040</ymax>
+      </extent>
+      <id>T14TPQ_20160720T174112_B0320191012210339636</id>
+      <datasource>./data/S2A_MSIL1C_20160720T174112_N0204_R055_T14TPQ_20160720T174112/S2A_MSIL1C_20160720T174112_N0204_R055_T14TPQ_20160720T174112.SAFE/GRANULE/L1C_T14TPQ_A005629_20160720T174112/IMG_DATA/T14TPQ_20160720T174112_B03.jp2</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>T14TPQ_20160720T174112_B03</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=14 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3098</srsid>
+          <srid>32614</srid>
+          <authid>EPSG:32614</authid>
+          <description>WGS 84 / UTM zone 14N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1131</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-96.93899999999999295</xmin>
+        <ymin>40.37299999999999756</ymin>
+        <xmax>-90.12600000000000477</xmax>
+        <ymax>44.53499999999999659</ymax>
+      </extent>
+      <id>extentIowa20191012205805143</id>
+      <datasource>./extentIowa.geojson</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>extentIowa</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="MINX">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MINY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MAXX">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MAXY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CNTX">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CNTY">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AREA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="PERIM">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="HEIGHT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="WIDTH">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="129,167,53,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>WIDTH</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="MINX" index="0" name=""/>
+        <alias field="MINY" index="1" name=""/>
+        <alias field="MAXX" index="2" name=""/>
+        <alias field="MAXY" index="3" name=""/>
+        <alias field="CNTX" index="4" name=""/>
+        <alias field="CNTY" index="5" name=""/>
+        <alias field="AREA" index="6" name=""/>
+        <alias field="PERIM" index="7" name=""/>
+        <alias field="HEIGHT" index="8" name=""/>
+        <alias field="WIDTH" index="9" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="889722368">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="MINX" expression=""/>
+        <default field="MINY" expression=""/>
+        <default field="MAXX" expression=""/>
+        <default field="MAXY" expression=""/>
+        <default field="CNTX" expression=""/>
+        <default field="CNTY" expression=""/>
+        <default field="AREA" expression=""/>
+        <default field="PERIM" expression=""/>
+        <default field="HEIGHT" expression=""/>
+        <default field="WIDTH" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+      <globe>
+        <renderingMode mode="0"/>
+        <modelRendering lighting="1">
+          <altitude binding="0" clamping="1" verticalOffset="0" technique="3" verticalScale="0" clampingResolution="0"/>
+          <extrusion wall-gradient="0.5" enabled="0" height="10" flatten="0"/>
+          <labeling declutter="0" enabled="0" field=""/>
+        </modelRendering>
+      </globe>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-97.74938307520388037</xmin>
+        <ymin>44.13523625236175008</ymin>
+        <xmax>-96.33241219176834136</xmax>
+        <ymax>45.14675285509340341</ymax>
+      </extent>
+      <id>reproj120191012210541588</id>
+      <datasource>./data/reproj1.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>reproj1</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>721</minValue>
+            <maxValue>1343</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-97.74938307520388037</xmin>
+        <ymin>44.13523625236175008</ymin>
+        <xmax>-96.33241219176834136</xmax>
+        <ymax>45.14675285509340341</ymax>
+      </extent>
+      <id>reprojected2016072020191012210303965</id>
+      <datasource>./data/reprojected20160720.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>reprojected20160720</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>793</minValue>
+            <maxValue>4567</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <SemiAutomaticClassificationPlugin>
+      <bandSetPresent type="QString">No</bandSetPresent>
+      <bndSetWvLn type="QString">[]</bndSetWvLn>
+      <bndSetMultF type="QString">[]</bndSetMultF>
+      <bndSetUnit type="QString">band number</bndSetUnit>
+      <bandSet type="QString">[]</bandSet>
+      <rasterName type="QString"></rasterName>
+      <previewSize type="QString">200</previewSize>
+      <bndSetAddF type="QString">[]</bndSetAddF>
+    </SemiAutomaticClassificationPlugin>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">0</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>extentIowa20191012205805143</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
