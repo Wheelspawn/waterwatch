@@ -22,7 +22,7 @@ def getData(dtInput):
 
 #%%
 # api = SentinelAPI('navidj', 'smaptest123', 'https://scihub.copernicus.eu/dhus')
-api = SentinelAPI('navidj', 'smaptest123', 'https://scihub.copernicus.eu/dhus')
+api = SentinelAPI('wheelspawn', '!nkythe#edgeh0g', 'https://data.sentinel.zamg.ac.at')
 # search by polygon, time, and SciHub query keywords
 footprint = geojson_to_wkt(read_geojson('../extentIowa.geojson'))
 maxCloudCov = 20 #%
