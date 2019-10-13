@@ -17,13 +17,13 @@ def getData(dtInput):
     products_df_sorted = products_df.sort_values(['cloudcoverpercentage', 'ingestiondate'], ascending=[True, True])
     cloudMasked = products_df['cloudcoverpercentage']<20
     # download sorted and reduced products
-    api.download_all(cloudMasked.index)
+    api.download_all(cloudMasked.index,directory_path='data')
 
 
 #%%
 api = SentinelAPI('navidj', 'smaptest123', 'https://scihub.copernicus.eu/dhus')
 # search by polygon, time, and SciHub query keywords
-footprint = geojson_to_wkt(read_geojson('data/extentIowa.geojson'))
+footprint = geojson_to_wkt(read_geojson('extentIowa.geojson'))
 maxCloudCov = 20 #%
 deltaT = 10# days
 
