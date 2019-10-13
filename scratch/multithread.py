@@ -14,13 +14,14 @@ def getData(dtInput):
                          platformname='Sentinel-2')
     products_df = api.to_dataframe(products)
     # sort and limit to first 5 sorted products
-    products_df_sorted = products_df.sort_values(['cloudcoverpercentage', 'ingestiondate'], ascending=[True, True])
+    # products_df_sorted = products_df.sort_values(['cloudcoverpercentage', 'ingestiondate'], ascending=[True, True])
     cloudMasked = products_df['cloudcoverpercentage']<20
     # download sorted and reduced products
-    api.download_all(cloudMasked.index,directory_path='data')
+    api.download_all(cloudMasked.index,directory_path='E:\\Research\\sentinel\\data\\')
     return dtInput + ":" + 'success'
 
 #%%
+# api = SentinelAPI('navidj', 'smaptest123', 'https://scihub.copernicus.eu/dhus')
 api = SentinelAPI('navidj', 'smaptest123', 'https://scihub.copernicus.eu/dhus')
 # search by polygon, time, and SciHub query keywords
 footprint = geojson_to_wkt(read_geojson('../extentIowa.geojson'))
@@ -35,6 +36,6 @@ date_list = [_dt.strftime('%Y%m%d') for _dt in date_generated]
 
 # pool = ThreadPool(2)
 # results = pool.map(getData, date_list)
-
-for _dt in date_list:
+#%%
+for _dt in date_list[20:21]:
     getData(_dt)
