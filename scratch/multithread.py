@@ -5,14 +5,7 @@ from datetime import timedelta
 from multiprocessing.dummy import Pool as ThreadPool
 from multiprocessing import cpu_count
 
-api = SentinelAPI('navidj', 'smaptest123', 'https://scihub.copernicus.eu/dhus')
-# search by polygon, time, and SciHub query keywords
-footprint = geojson_to_wkt(read_geojson('data/extentIowa.geojson'))
-maxCloudCov = 20 #%
-deltaT = 10# days
-
-
-# convert to Pandas DataFrame
+#%%
 def getData(dtInput):
     #
     dtData = datetime.datetime.strptime(dtInput, '%Y%m%d').date() + timedelta(days=deltaT)
@@ -25,6 +18,15 @@ def getData(dtInput):
     cloudMasked = products_df['cloudcoverpercentage']<20
     # download sorted and reduced products
     api.download_all(cloudMasked.index)
+
+
+#%%
+api = SentinelAPI('navidj', 'smaptest123', 'https://scihub.copernicus.eu/dhus')
+# search by polygon, time, and SciHub query keywords
+footprint = geojson_to_wkt(read_geojson('data/extentIowa.geojson'))
+maxCloudCov = 20 #%
+deltaT = 10# days
+
 #%%
 start = datetime.datetime.strptime("01-01-2016", "%d-%m-%Y").date()
 end = datetime.datetime.strptime("10-01-2017", "%d-%m-%Y").date()
@@ -33,9 +35,3 @@ date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-star
 n_cpu = cpu_count()
 pool = ThreadPool(n_cpu - 1)
 results = pool.map(getData, date_generated)
-
-#
-# for _dt in date_generated:
-#     dtInput = _dt.strftime('%Y%m%d')
-#     print(dtInput)
-#     # getData(dtInput)
