@@ -23,7 +23,7 @@ def getData(dtInput):
 #%%
 api = SentinelAPI('navidj', 'smaptest123', 'https://scihub.copernicus.eu/dhus')
 # search by polygon, time, and SciHub query keywords
-footprint = geojson_to_wkt(read_geojson('extentIowa.geojson'))
+footprint = geojson_to_wkt(read_geojson('../extentIowa.geojson'))
 maxCloudCov = 20 #%
 deltaT = 10# days
 
@@ -31,7 +31,7 @@ deltaT = 10# days
 start = datetime.datetime.strptime("01-01-2016", "%d-%m-%Y").date()
 end = datetime.datetime.strptime("10-01-2017", "%d-%m-%Y").date()
 date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days, 10)]
-
+date_list = [_dt.strftime('%Y%m%d') for _dt in date_generated]
 n_cpu = cpu_count()
 pool = ThreadPool(n_cpu - 1)
-results = pool.map(getData, date_generated)
+results = pool.map(getData, date_list)
